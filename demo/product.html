@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products — TechHub Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <span class="logo">🛍️ TechHub</span>
+      <a href="/demo/">Home</a>
+      <a href="/demo/product.html" class="active">Products</a>
+      <a href="/demo/checkout.html">Checkout</a>
+    </nav>
+
+    <main>
+      <h1>Our Featured Products</h1>
+      <p>Handpicked selection of premium technology products</p>
+
+      <div class="product">
+        <div class="product-image">💼</div>
+        <div class="product-info">
+          <h2>UltraBook Pro 15"</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span style="margin-left: 0.5rem; color: #64748b;">(4.8/5 - 2.4K reviews)</span></div>
+          <p class="price">$1,299.99</p>
+          <p>Premium laptop with Intel Core i9, 32GB RAM, and NVMe SSD. Perfect for developers, designers, and content creators.</p>
+          <ul class="features">
+            <li>15.6" 4K OLED Display</li>
+            <li>Intel Core i9 Processor</li>
+            <li>32GB DDR5 RAM</li>
+            <li>1TB NVMe SSD</li>
+            <li>NVIDIA RTX 4080 Graphics</li>
+            <li>17-hour Battery Life</li>
+          </ul>
+          <button class="cta">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product" style="margin-top: 3rem;">
+        <div class="product-image" style="order: 2;">📱</div>
+        <div class="product-info" style="order: 1;">
+          <h2>TechPhone 13 Max</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span style="margin-left: 0.5rem; color: #64748b;">(4.9/5 - 5.2K reviews)</span></div>
+          <p class="price">$1,099.99</p>
+          <p>Latest flagship smartphone with 5G, superior camera system, and all-day battery. Experience the future of mobile technology.</p>
+          <ul class="features">
+            <li>6.7" Dynamic AMOLED Display</li>
+            <li>Snapdragon 8 Gen 2</li>
+            <li>12GB RAM</li>
+            <li>256GB Storage</li>
+            <li>Triple Camera System (200MP main)</li>
+            <li>5G Connectivity</li>
+          </ul>
+          <button class="cta">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product" style="margin-top: 3rem;">
+        <div class="product-image">⌚</div>
+        <div class="product-info">
+          <h2>SmartWatch Elite</h2>
+          <div class="rating">⭐⭐⭐⭐ <span style="margin-left: 0.5rem; color: #64748b;">(4.7/5 - 1.8K reviews)</span></div>
+          <p class="price">$399.99</p>
+          <p>Advanced fitness tracking with heart rate monitoring, GPS, and 7-day battery life. Your personal health companion.</p>
+          <ul class="features">
+            <li>1.4" AMOLED Display</li>
+            <li>10+ Sports Modes</li>
+            <li>Advanced Health Metrics</li>
+            <li>Built-in GPS</li>
+            <li>Water Resistant (50m)</li>
+            <li>7-day Battery</li>
+          </ul>
+          <button class="cta">Add to Cart</button>
+        </div>
+      </div>
+
+      <div style="background: linear-gradient(135deg, #e0e7ff 0%, #f5e6ff 100%); border-radius: 1rem; padding: 2rem; margin-top: 3rem; text-align: center;">
+        <h2>Special Promotion</h2>
+        <p style="font-size: 1rem;">Buy any 2 items and get 15% off! Free shipping on orders over $100.</p>
+        <button class="cta">Shop Now</button>
+      </div>
+    </main>
+
+    <script>
+      window.USER_ANALYTICS_ENDPOINT = 'http://localhost:5000/api/events';
+    </script>
+    <script src="../tracker.js"></script>
+  </body>
+</html>
